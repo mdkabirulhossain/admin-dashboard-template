@@ -37,7 +37,7 @@ export function OrdersChart() {
         <ShoppingCart className="text-gold h-4 w-4" />
       </div>
 
-      <ChartContainer config={chartConfig} className="min-h-[250px] w-full">
+      <ChartContainer config={chartConfig} className="min-h-62.5 w-full">
         <LineChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
           <CartesianGrid vertical={false} stroke="#1f1f23" strokeDasharray="3 3" />
           <XAxis

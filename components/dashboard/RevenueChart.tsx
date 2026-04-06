@@ -1,7 +1,7 @@
 // src/components/dashboard/revenue-chart.tsx
 "use client";
 
-import { Area, AreaChart, CartesianGrid, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 import {
   ChartConfig,
   ChartContainer,
@@ -37,7 +37,7 @@ export function RevenueChart() {
         <TrendingUp className="text-gold h-4 w-4" />
       </div>
 
-      <ChartContainer config={chartConfig} className="min-h-[250px] w-full">
+      <ChartContainer config={chartConfig} className="min-h-62.5 w-full">
         <AreaChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
           <defs>
             <linearGradient id="fillRevenue" x1="0" y1="0" x2="0" y2="1">

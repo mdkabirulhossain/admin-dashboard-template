@@ -39,7 +39,7 @@ export function SidebarContent() {
                             className={cn(
                                 "flex items-center gap-3 px-6 py-3 text-sm font-medium transition-all relative group",
                                 isActive
-                                    ? "text-gold bg-gradient-to-r from-gold/10 to-transparent border-l-2 border-gold"
+                                    ? "text-gold bg-linear-to-r from-gold/10 to-transparent border-l-2 border-gold"
                                     : "text-muted-foreground hover:text-white hover:bg-white/5"
                             )}
                         >
